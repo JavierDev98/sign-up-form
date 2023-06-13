@@ -1,0 +1,39 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.left {
+    width: 35vw;
+    height: 100vh;
+    background-image: url(images/olena-sergienko-r0M9HrfJMBM-unsplash.jpg);
+    background-size: cover;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: 30vh;
+    color: white;
+    font-size: 5vh;
+    background-color: rgb(37, 34, 34);
+    opacity: 0.8;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    
+}
+
+.imagelogo {
+    height: 10vh;
+}
+.right {
+    width: 75vw;
+    height: 100vh;
+    background-color: rgb(14, 12, 12);
+}
+
+/* background-color: rgb(37, 34, 34);
